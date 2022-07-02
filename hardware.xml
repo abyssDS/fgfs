@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<PropertyList>
+<generic>
+   <input>
+      <line_separator>\n</line_separator>
+      <var_separator>,</var_separator>
+
+      <chunk>
+         <name>Etat Cle</name>
+         <node>/controls/engines/engine[%d]/ignition</node>
+         <type>bool</type>
+       </chunk>
+
+      <chunk>
+         <name>Demarreur</name>
+         <node>/controls/engines/engine[%d]/starter</node>
+         <type>bool</type>
+       </chunk>
+
+      <chunk>
+         <name>Etat battery</name>
+         <node>/controls/electric/battery-switch</node>
+         <type>bool</type>
+       </chunk>
+
+      <chunk>
+         <name>Navigation</name>
+         <node>/controls/lighting/nav-lights</node>
+         <type>bool</type>
+       </chunk>
+
+      <chunk>
+         <name>Strobe</name>
+         <node>/controls/lighting/strobe</node>
+         <type>bool</type>
+       </chunk>
+
+      <chunk>
+         <name>beacon</name>
+         <node>/controls/lighting/beacon</node>
+         <type>bool</type>
+       </chunk>
+
+      <chunk>
+         <name>taxi</name>
+         <node>/controls/lighting/taxi-light</node>
+         <type>bool</type>
+       </chunk>
+
+      <chunk>
+         <name>landing</name>
+         <node>/controls/lighting/landing-lights</node>
+         <type>bool</type>
+       </chunk>
+
+      <chunk>
+         <name>throttle</name>
+         <node>/controls/engines/engine[%d]/throttle</node>
+         <type>float</type>
+       </chunk>
+
+      <chunk>
+         <name>mixture</name>
+         <node>/controls/engines/engine[%d]/mixture</node>
+         <type>float</type>
+       </chunk>
+
+   </input>
+
+</generic>
+</PropertyList>
