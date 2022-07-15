@@ -1,0 +1,6 @@
+Cessna 150 panel interfaces,
+Files include :
+-program ino for the arduino
+-program xml for the Flightgear game
+-zip file of the cessna model
+-schematics diagram (png, svg)

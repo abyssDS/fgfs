@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<PropertyList>
+	<generic>
+	<input>
+		<line_separator>\n</line_separator>
+		<var_separator>,</var_separator>
+
+		<chunk>
+		<name>autoFlight</name>
+		<type>bool</type>
+		<node>/controls/autoflight/autopilot/engage</node>
+		</chunk>
+
+		<chunk>
+		<name>master-alt</name>
+		<type>bool</type>
+		<node>/controls/switches/master-alt</node>
+		</chunk>
+
+		<chunk>
+		<name>master-bat</name>
+		<type>bool</type>
+		<node>/controls/switches/master-bat</node>
+		</chunk>
+
+		<chunk>
+		<name>ignition</name>
+		<type>int</type>
+		<node>/controls/engines/engine/ignition</node>
+		</chunk>
+
+		<chunk>
+		<name>starter</name>
+		<type>bool</type>
+		<node>/controls/switches/starter</node>
+		</chunk>
+		
+		<chunk>
+		<name>pitot</name>
+		<type>bool</type>
+		<node>/controls/anti-ice/pitot-heat</node>
+		</chunk>
+
+		<chunk>
+		<name>dome</name>
+		<type>bool</type>
+		<node>/controls/lighting/dome-norm</node>
+		</chunk>
+
+		<chunk>
+		<name>nav-lights</name>
+		<type>bool</type>
+		<node>/controls/lighting/nav-lights</node>
+		</chunk>		
+
+		<chunk>
+		<name>strobe</name>
+		<type>bool</type>
+		<node>/controls/lighting/strobe</node>
+		</chunk>
+		
+		<chunk>
+		<name>beacon</name>
+		<type>bool</type>
+		<node>/controls/lighting/beacon</node>
+		</chunk>		
+
+		<chunk>
+		<name>taxi-lights</name>
+		<type>bool</type>
+		<node>/controls/lighting/taxi-lights</node>
+		</chunk>
+
+		<chunk>
+		<name>landing-lights</name>
+		<type>bool</type>
+		<node>/controls/lighting/landing-lights</node>
+		</chunk>
+
+		<chunk>
+		<name>throttle</name>
+		<type>double</type>
+		<node>/controls/engines/engine/throttle</node>
+		</chunk>
+
+		<chunk>
+		<name>mixture</name>
+		<type>double</type>
+		<node>/controls/engines/engine/mixture</node>
+		</chunk>
+
+		
+	</input>
+
+	</generic>
+</PropertyList>
